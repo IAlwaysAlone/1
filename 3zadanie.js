@@ -3,5 +3,5 @@ function sorrt(arr){
     return arr;
 }
 
-let numbers = [68, 189, -23, 0, 4, 1000];
+let numbers = [55, 111, -15, -12, 5, 666];
 console.log(sorrt(nums));
