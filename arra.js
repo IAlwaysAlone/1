@@ -1,9 +1,7 @@
-function xoroshiechisla(arr){
-    let gydchisela = [];
-    for (let i = 0; i < arr.length; i++) {
-        if(arr[i] > 0){
-            gydchisela.push(arr[i]);
-        }
-    }
-    return gydchisela;
+function getPositiveNumbers(arr){
+    let posNumbers = arr.filter(num => num > 0);
+    return posNumbers;
 }
+
+let nums = [7, 9, 1, 6, 15, 12];
+console.log(getPositiveNumbers(nums));
